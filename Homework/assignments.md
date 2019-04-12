@@ -243,7 +243,56 @@ You can use more than one while loop simultaneously. This is called nesting.
 	}
 
 	
-# Assignment 4 (functions):
+# Assignment 4 (While loops, string iteration, if statements)
+
+Lets make an update to the number guessing program.
+
+The number guessing program in assignment 2 can be improved.
+Let's now make it a bit smarter.
+
+Write a number guessing program that does the following:
+
+Write a menu like the one below:
+
+	1. Play the guessing game
+	2. Show every guess so far
+	3. Show every right answer so far
+	4. Exit 
+
+If the user presses 1 and hits enter, the number guessing game starts like before.
+When the guess is through, return to the menu.
+
+If the user presses 2 or 3, display the history of current games so far.
+This can be easily achieved by adding the correct answer and the guess to 
+either a Hashtable, or to two separate arrays, or even an array with two nested 
+arrays inside. It's your choice.
+
+Example output when 2 is pressed:
+
+	* User guessed 50 | Answer was 99
+	* User guessed 89 | Answer was 99
+	* User guessed 78 | Answer was 99
+	* User guessed 99 | Answer was 99
+	* User guessed 3 | Answer was 46
+
+... And so on.
+There is no need to write this data to disk, just keeping it in memory for the 
+runtime of your program is enough.
+
+If you need an arrayList that you can add data to iteratively, either you can do this via:
+
+	$arr = @()
+	$arr += 1
+
+OR..
+
+	$arr = System.Collections.Arraylist
+	$arr.Add(1)
+
+Whichever you choose is OK for this assignment.
+
+
+# Assignment 6 :
 
 ## The Fibonacci sequence
 
