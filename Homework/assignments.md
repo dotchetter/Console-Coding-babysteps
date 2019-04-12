@@ -292,7 +292,7 @@ OR..
 Whichever you choose is OK for this assignment.
 
 
-# Assignment 6 :
+# Assignment 5:
 
 ## The Fibonacci sequence
 
