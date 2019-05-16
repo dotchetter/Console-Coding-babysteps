@@ -138,8 +138,13 @@ See "Homework" folder in this repository.
 	- logical operators:
 	and, or, not, <, >, <=, >=, ==, !=, %
 
-* if, elif, else
-* nested if statements
+### We cover:
+
+* What are if / else / elseif // elif statements?
+* How do they work in executing code? 
+* How can we use them with a minimalistic clean approach?
+* Nesting if statements
+
 
 ## Assignments:
 See "Homework" folder in this repository.
@@ -149,15 +154,49 @@ See "Homework" folder in this repository.
 
 * loops
 - for loops
+- foreach loops
 - while loops
+
+
+During this chapter we cover while, for and foreach loops.
+We use our loops to iterate through iterable datatypes such as arrays and more.
+
+
+### We cover:
+
+* What is a loop?
+* How are loops used in programming? 
+* What are some of the dangers with loops?
+* The different types of loops in resp. language
+
 
 ## Assignments:
 
-DEMO: Write a program that can count to 100 and print to a box-like format.
-DEMO: Write a program that can print seconds like a clock for x seconds.
+See "Homework" foler in this repository
 
-Write a program that tells you if a number is a prime number or not, using for loops and modulo.
 
-# Chapter 5: 
+# Chapter 5: functions
 
-	TODO
+* Functions / Methods
+In this last chapter of this fundamentals course, we cover functions. 
+
+In what ways are functions used? What's the difference between a method and a function?
+These questions and much more is covered as we dive in to the layers of functions in programming.
+
+### We cover:
+
+* What is a function? 
+* How do I use functions in my program? 
+* How do functions work? 
+* What is good practice when using functions in software?
+* What is a void function?
+* What is a method?
+
+
+# Exam, end of course
+
+This is the part where you are tested on these different chapters we've covered.
+You will recieve a small number of different projects to complete where you will
+need your knowledge and experience to complete them. The 
+
+
