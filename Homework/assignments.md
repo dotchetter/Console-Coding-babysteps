@@ -70,7 +70,7 @@ If you get stuck, Google is your friend. You can always reach me on WhatsApp if 
 	
 	# $foo will be of datatype int()
 	$foo = int(input('Your guess?'))
-
+	
 	# bar will be of datatype str()
 	bar = input('Your guess?')
 
@@ -79,7 +79,7 @@ In Psuedo code, one could write something like this...
 
 	answer is 190
 	guess is input 'Guess my number!'
-
+	
 	if the guess is not equal to the answer,
 		write 'Sorry, wrong answer.'
 
@@ -112,7 +112,7 @@ too high or too low in your guess. Not very nice. Let's be more nice.
 
 	answer is 190
 	guess is input 'Guess my number!'
-
+	
 	if the guess is less than answer,
 		write 'Too low!'
 	but the guess is higher than answer,
@@ -131,22 +131,22 @@ In this assignment, we continue to develop the coffee machine we coded during th
 Create a simple coffee machine interface. It should look something like this:
 
 	*     The best coffee in the world!	*
-
+	
 	*        Pick a beverage and size	*
 
 
 	1. Mocaccino	2. Capuccino
-
+	
 	3. Latte	4. Coffee with milk
-
+	
 	5. Coffee 	6. Chocolate
 
 Presume the user pressed 2..
 
 	Pick the size for your Capuccino.
-
+	
 	1. Small 20 SEK		2. Medium 30 SEK
-
+	
 	3. Large 35 SEK		4. Huge	50 SEK
 
 
@@ -178,20 +178,20 @@ On the other hand, remember to give change if they overpay.
 
 	You paid 51.
 	Change: 16 SEK
-
+	
 	Your Capuccino is brewing. Thank you for your order!
 ## Bonus points if you fix this feature:
 ** The coffee machine resets and gets ready for a new order, and forgets about the one that just happened. ***
 
 	*     The best coffee in the world!	*
-
+	
 	*        Pick a beverage and size	*
 
 
 	1. Mocaccino	2. Capuccino
-
+	
 	3. Latte	4. Coffee with milk
-
+	
 	5. Coffee 	6. Chocolate
 
 
@@ -242,7 +242,8 @@ You can use more than one while loop simultaneously. This is called nesting.
 		}
 	}
 
-	
+
+​	
 # Assignment 4 (While loops, string iteration, if statements)
 
 Lets make an update to the number guessing program.
@@ -334,11 +335,11 @@ The function must:
 * Start the sequence from n as given by argument and y length, for example:
   Let's say you have a fibonacci function that returns an array of numbers. 
   The function will start counting from n, and only keep counting y times.
-  
+
 Let's call the function like this:
  	
 	fib 5 5
-  
+
 The function returns:
 
 	5, 5, 10, 15, 25
@@ -350,4 +351,45 @@ Let's call it like this instead:
 The function returns:
 
 	1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+
+
+
+
+
+# Assignment 6: 
+
+## Unit converter
+
+In this challenge, you are going to program a unit converter.
+
+This unit converter will make it easier for the user to convert metric to imperial, and Fahrenheit to Celcius.
+
+
+
+#### The assignment
+
+Create a menu with a minimum of 6 choices:
+
+* Convert C to F (temperature)
+* Convert F to C
+* Convert MPH to KMH
+* Convert KMH to MPH
+* Previous conversions
+* Exit
+
+
+
+When the user selects one of the above and runs the conversion, make sure the user gets to see the menu again. In the background the program saves this job in memory. If the user selects the '**Previous conversions**' mode after having done a conversion, these are displayed in chronological order here. You can decide how to store the data, and how it is displayed.
+
+
+
+#### Technical requirements
+
+This assignment must include the following for it to be considered well written:
+
+* Abstract your code with the use of short, concise, well documented functions.
+  Remember to write a document block for every function you write. This explains what the function does and what it is supposed to yield.
+* Perform every conversion with the use of a function. Try not to do conversions public in the code.
+* Comments should cover the intent of your code. Not necessarily every line, but for every step of the way, explain what the code does. Aim for comments that provide enough explanation for someone who has never seen this program before. If you read this code in 20 years, you'll understand the way you were thinking if you read the comments. **Begin the file with your name, date and a short explanation what this program does.**
+* User input validation - Ensure that they cannot enter an invalid menu selection or value in a conversion, which would otherwise cause a crash. A tip for this is the Try - Catch - Finally block, or using Regular Expressions.
 
