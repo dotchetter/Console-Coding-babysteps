@@ -94,8 +94,6 @@ $env:userprofile\desktop\my_directory\myfile.txt
 
 **Append your file with any sentence.**
 
-The 
-
 To append your file:
 
 ```powershell
@@ -105,9 +103,22 @@ To append your file:
 To overwrite the file leaving only one line of data which is what you type:
 
 ```powershell
-"This is another line in my file" > $env:userprofile\desktop\my_directory\myfile.txt
+"This is another line in my file" | Out-File $env:userprofile\desktop\my_directory\myfile.txt -Append
 ```
 
+Now, try to pipe the **ping** command to a file. Let's say it's to store the output to compare the network speeds before and after you've installed a new network in your house.
+
+```powershell
+ping | Out-File -Filename $home\SomeDir\pingresults.txt
+```
+
+To then add the next ping to the same file without overwriting it, add the **-Append** switch.
+
+```
+ping | Out-File -Filename $home\SomeDir\pingresults.txt -Append
+```
+
+*Pro tip! If you forget the switches while writing a command, write a " - " and hit CTRL + SPACE to see available switches*
 
 # Chapter 1: Intro to programming
 
@@ -121,8 +132,8 @@ not exclusive to:
 * what is binary and why is it used in computer science?
 
 DEMO: Write a program that asks for your name and prints it out to the screen with a greeting.
-DEMO: Demonstrate the difference between int() and float() datatype. 
-DEMO: Demonstrate how Python 3 behaves with arithmetic and datatypes.
+DEMO: Demonstrate the difference between int() and float() data type. 
+DEMO: Demonstrate how Python 3 behaves with arithmetic and data types.
 
 
 ## Assignments:
