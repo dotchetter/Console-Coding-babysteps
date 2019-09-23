@@ -168,13 +168,13 @@ When you know how to deal with variables and simple things like adding, subtract
   - and
   - or
   - not
-  - ''<''
-  - ''>''
-  - ''<=''
-  - ''>=''
-  - ''==''
-  - ''!=''
-  - ''%''
+  - ''<''   -- Less than
+  -  ''>''  -- Greater than
+  - ''<='' -- Less than or equal
+  - ''>='' -- Greater than or equal
+  - ''=='' -- Equals
+  - ''!=''  -- Does not equal
+  - ''%'' -- Modulo
 - if, else, elif
 - nested if, else, elif statements
 
